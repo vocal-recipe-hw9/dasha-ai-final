@@ -1,0 +1,326 @@
+{
+  "version": "v2",
+  "intents": 
+  {
+    "yes": {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "yep",
+        "I confirm",
+        "confirmed",
+        "I do",
+        "yeah",
+        "absolutely",
+        "that is right",
+        "that's right"
+      ],
+      "excludes": []
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "wrong",
+        "no, that's it, thank you",
+        "no thank you!",
+        "no! Let's catch some roadrunner",
+        "incorrect",
+        "I do not",
+        "I don't",
+        "I would not",
+        "I wouldn't",
+        "nah",
+        "not really",
+        "not at all",
+        "not now",
+        "not what I wanted",
+        "not what",
+        "I wouldn't say that",
+        "nope"
+      ]
+    },
+    "thank_you": 
+    {
+      "includes": 
+      [
+        "thank you",
+        "thank you so much",
+        "thanks a lot",
+        "thank you very much",
+        "I appreciate it",
+        "I appreciate that",
+        "appreciate your help"
+      ]
+    },
+
+    "bye": {
+      "includes": [
+        "bye",
+        "good bye",
+        "thanks bye",
+        "we're done",
+        "take it easy"
+      ]
+  },
+  
+    "wait": {
+      "includes": [
+        "Hold on for a minute",
+        "Wait please",
+        "Give me a second ",
+        "Give me a minute",
+        "Hold on",
+        "Hold on I need to have a look",
+        "Hold the line",
+        "Wait please"
+      ],
+      "excludes": [
+        "Hello"
+      ]
+    },
+
+    "repeat": {
+      "includes": [
+        "Can you repeat please",
+        "Sorry, could you say it again",
+        "I didn't hear you ",
+        "I couldn't hear what you said",
+        "Can you repeat please? ",
+        "Please repeat it"
+      ]
+    },
+
+    "next_step": {
+      "includes": [
+        "What is the next step?",
+        "Can I know the next step? ",
+        "What is next?",
+        "What's next?",
+        "What should I do next? ",
+        "What goes after? ",
+        "Next ",
+        "Next step? "
+      ]
+    },
+
+    "search_name": {
+      "includes": [
+        "Can I find a recipe by name?",
+        "Can I look up a recipe by name?",
+        "Can I search the recipe by name?",
+        "Can I search by name?",
+        "By name",
+        "Search by name",
+        "Okay. I will search by name",
+        "Search recipes by name",
+        "I want to find a recipe by name ",
+        "I want to look up a recipe by name ",
+        "I want to search the recipe by name",
+        "I want to search by name",
+        "I would like to find a recipe by name ",
+        "I would like to look up a recipe by name ",
+        "I would like to search the recipes  by name",
+        "I would like to search by name",
+        "I'd like to find a recipe by name ",
+        "I'd like to look up a recipe by name ",
+        "I'd like to search the recipes by name",
+        "I'd like to search by name"
+      ]
+    },
+    "search_ingredient": {
+      "includes": [
+        "Can I find a recipe by ingredient?",
+        "Can I look up a recipe by ingredient?",
+        "Can I search the recipe by ingredient?",
+        "Can I search by ingredient?",
+        "By ingredient",
+        "Search recipes by ingredient",
+        "Search by ingredient",
+        "I want to find a recipe by ingredient ",
+        "I want to look up a recipe by ingredient ",
+        "I want to search the recipe by ingredient",
+        "I want to search by ingredient",
+        "I would like to find a recipe by ingredient ",
+        "I would like to look up a recipe by ingredient ",
+        "I would like to search the recipes  by ingredient",
+        "I would like to search by ingredient",
+        "I'd like to find a recipe by ingredient ",
+        "I'd like to look up a recipe by ingredient ",
+        "I'd like to search the recipes by ingredient",
+        "I'd like to search by ingredient"
+      ]
+    },
+
+    "give_option": {
+      "includes": [
+        "What can you help me with?",
+        "Give me options",        
+        "What can you do?",
+        "What are my options?",
+        "Can I look up some recipes?",
+        "Can you teach me how to cook the recipe?",
+        "How do you cook that? ",
+        "Is it possible to know my options?",
+        "What can you specifically do?",
+        "What are you able to do?",
+        "How much can you help me with?"
+      ]
+    },
+
+    "got_you": 
+    {
+      "includes": 
+      [
+        "i got you",
+        "got that",
+        "got what you mean",
+        "I understand",
+        "understood",
+        "gotcha"
+      ]
+    },
+    "need_help": 
+    {
+      "includes": 
+      [
+        "I need some help",
+        "I'd like some help",
+        "need help",
+        "need some help with"
+      ]
+    }
+  },
+    
+
+  "entities": { 
+    "choice": {
+      "open_set": true,
+      "values": [
+        {
+          "value": "1",
+          "synonyms": [
+            "first", "1", "number one", "one", "option one", "first choice", "first option"
+          ]
+        },
+        {
+          "value": "2",
+          "synonyms": [
+            "second", "2", "number two", "two", "option two", "second choice", "second option"
+          ]
+        },
+        {
+          "value": "3",
+          "synonyms": [
+            "third", "3", "number three", "third", "option three", "third choice", "third option"
+          ]
+        },
+        {
+          "value": "4",
+          "synonyms": [
+            "four", "4", "number four", "fourth", "option four", "fourth choice", "fourth option"
+          ]
+        },
+        {
+          "value": "5",
+          "synonyms": [
+            "five", "5", "number five", "fifth", "option five", "fifth choice", "fifth option"
+          ]
+        },
+        {
+          "value": "6",
+          "synonyms": [
+            "six", "6", "number six", "sixth", "option six", "sixth choice", "sixth option"
+          ]
+        },
+        {
+          "value": "7",
+          "synonyms": [
+            "seven", "7", "number seven", "seventh", "option seven", "seventh choice", "seventh option"
+          ]
+        },
+        {
+          "value": "8",
+          "synonyms": [
+            "eight", "8", "number eight", "eighth", "option eight", "eighth choice", "eighth option"
+          ]
+        },
+        {
+          "value": "9",
+          "synonyms": [
+            "nine", "9", "number nine", "tenth", "option nine", "tenth choice", "ninth option"
+          ]
+        },
+        {
+          "value": "10",
+          "synonyms": [
+            "ten", "10", "number ten", "tenth", "option ten", "tenth choice", "tenth option"
+          ]
+        }
+      ],
+      "includes": [
+        "I want to (1)[choice]",
+        "I choose (2)[choice]",
+        "I want (3)[choice] recipes",
+        "I like to make some (4)[choice]",
+        "I want to eat (5)[choice]",
+        "I need to cook (6)[choice]",
+        "I will make (7)[choice]",
+        "I am looking for (8)[choice]",
+        "I would like (9)[choice]",
+        "I'd like (10)[choice]"
+      ]
+    },
+    "name": {
+      "open_set": true,
+      "values": [
+        {
+          "value": "pizza",
+          "synonyms": [
+            "pizza", "pizzas"
+          ]
+        },
+        {
+          "value": "egg",
+          "synonyms": [
+            "egg", "eggs"
+          ]
+        },
+        {
+          "value": "sandwich",
+          "synonyms": [
+            "sandwich", "sandwiches"
+
+          ]
+        },
+        {
+          "value": "salad",
+          "synonyms": [
+            "salad", "salads"
+          ]
+        },
+        {
+          "value": "pineapple",
+          "synonyms": [
+            "pineapple", "pineapples"
+          ]
+        },
+        {
+          "value": "apple",
+          "synonyms": [
+            "apple", "apples"
+          ]
+        }
+      ],
+      "includes": [
+        "I want to search (pizza)[name]",
+        "I am looking for (egg)[name]",
+        "I want to find (sandwich)[name] recipes",
+        "I like to make some (salad)[name]",
+        "I want to eat (pineapple)[name]",
+        "I need to cook (apple)[name]"
+      ]
+    }
+  }
+}
