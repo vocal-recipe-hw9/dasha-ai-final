@@ -1,4 +1,4 @@
-Simple application based on Dasha.ai SDK for node.js for testing WebRTC connection in browser
+Voice chat feature to search recipes by name the 5000+ recipes and provide step-by-step cooking instructions
 
 ## How to start the demo app
 
