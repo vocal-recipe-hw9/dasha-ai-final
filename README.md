@@ -17,7 +17,7 @@
 Ready to embark on a culinary journey like never before? Dive in and let your voice lead the way! For more details about this project and how to get started, check out our [detailed post](#link-to-your-detailed-post).
 
 
-## Setup Requirements
+## ⚙️ Setup Requirements
 
 To run Vocal Recipe on your local machine, follow these steps:
 
@@ -44,7 +44,7 @@ Open [http://localhost:1234/](http://localhost:1234/) in Google Chrome and click
 
 Ever found it challenging to search for recipes and ingredients while cooking? Vocal Recipe is the solution! This integrated platform provides users with comprehensive information about home-cooked meals. From recipes with nutrition details to measurement conversions, cooking tools, and more, we've got you covered. The standout feature of Vocal Recipe is its voice control capability, enabling users to access information without needing to touch anything while cooking.
 
-## How We Built Vocal Recipe
+## 🛠️ How We Built Vocal Recipe
 
 - **Recipes and Nutrition Information:** We sourced data from Spoonacular, an integrated food and recipe API, to provide a vast array of recipes and their nutrition information.
 
@@ -52,11 +52,11 @@ Ever found it challenging to search for recipes and ingredients while cooking? V
 
 - **Measurement Conversion Tool:** We incorporated a simple calculator to facilitate measurement conversions, ensuring precise cooking.
 
-## Challenges and Learning Outcomes
+## 🎯 Challenges and Learning Outcomes
 
 Building Vocal Recipe wasn't without its challenges. Limited trials offered by Spoonacular required us to strategize and collaborate efficiently. Time constraints led us to break down the project into stages, focusing on key functionalities. Additionally, working with Dasha AI provided us with a unique learning opportunity, allowing us to explore and experiment with this innovative tool.
 
-## Built With
+## 🛠️ Built With
 
 - API
 - Dasha
