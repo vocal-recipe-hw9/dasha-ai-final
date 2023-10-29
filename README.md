@@ -14,7 +14,7 @@
 
 ## Get Started! 🚀
 
-Ready to embark on a culinary journey like never before? Dive in and let your voice lead the way! For more details about this project and how to get started, check out our [detailed post](#link-to-your-detailed-post).
+Ready to embark on a culinary journey like never before? Dive in and let your voice lead the way! For more details about this project and how to get started, check out our [detailed post](https://devpost.com/software/vocal-recipe).
 
 
 ## ⚙️ Setup Requirements
